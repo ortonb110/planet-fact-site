@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=League+Spartan:wght@400;700&display=swap');
+
+@layer base {
+    body {
+        font-family: 'League Spartan', sans-serif;
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+        background-color: #070724;
+        background-image: url('./assets/background-stars.svg');
+        
+    }
+
+    
+
+    h1,h2 {
+        font-family: 'Antonio', sans-serif;
+        color: #fff;
+    }
+
+    h1 {
+        font-size: 8rem;
+        line-height: 10.3rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+        line-height: 5.2rem;
+        letter-spacing: -1.5;
+    }
+    h3 {
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        letter-spacing: 2.6;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+        line-height: 2.5rem;
+        letter-spacing: 1;
+    }
+}
