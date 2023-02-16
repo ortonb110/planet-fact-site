@@ -11,7 +11,7 @@
         line-height: 2.5rem;
         background-color: #070724;
         background-image: url('./assets/background-stars.svg');
-        
+        color: white;
     }
 
     
@@ -40,6 +40,7 @@
     h4 {
         font-size: 1.1rem;
         line-height: 2.5rem;
-        letter-spacing: 1;
+        letter-spacing: 1px;
+        font-weight: 700;
     }
 }
