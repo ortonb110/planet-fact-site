@@ -1,9 +1,12 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import Hamburger from "./Hamburger";
 
 export default function NavigationBar(props) {
+    
+
     return(
         <nav className="flex justify-between md:flex-col lg:flex-row border-b-[1px] border-[#979797] px-[3.2rem] items-center ">
+            
             <h2 className="text-[2.8rem] uppercase ">the planets</h2>
             <div>
             <Hamburger menuIsOpen={props.menuIsOpen} setMenu={props.setMenu}/>
