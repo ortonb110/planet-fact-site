@@ -11,6 +11,7 @@ export default function Header () {
 
     return(
         <Fragment>
+            
             <NavigationBar menuIsOpen={menuIsOpen} setMenu={openMenu} />
         </Fragment>
     )
