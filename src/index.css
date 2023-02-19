@@ -43,4 +43,8 @@
         letter-spacing: 1px;
         font-weight: 700;
     }
+
+    .btn {
+        @apply w-full py-[1.2rem] uppercase text-white font-semibold tracking-[2.57px]
+    }
 }
