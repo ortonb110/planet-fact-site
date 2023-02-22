@@ -17,7 +17,11 @@ module.exports = {
         darkOrange: "#CD5120",
         cyan: "#1EC2A4",
         darkBlue: "#2D68F0",
-      }
+      },
+      fontFamily: {
+        antonio: ["'Antonio', sans-serif"],
+        spartan: ["'League Spartan', sans-serif"]
+      },
     },
   },
   plugins: [],
